@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 const Counter = () => {
     const [count, setCount] = useState(0);
 
-    const {isLoaded,userId,sessionId,getToken}=useAuth()
+    const {isLoaded,userId}=useAuth()
     // const {isLoaded,isSignedIn,user}=useUser()
 
     if (!isLoaded || !userId) return null;
