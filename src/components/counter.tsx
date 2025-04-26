@@ -1,5 +1,5 @@
 "use client"
-import { useAuth, useUser } from '@clerk/nextjs';
+import { useAuth } from '@clerk/nextjs';
 import React, { useState } from 'react'
 
 const Counter = () => {

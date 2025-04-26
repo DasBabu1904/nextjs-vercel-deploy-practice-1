@@ -1,5 +1,5 @@
 import Counter from "@/components/counter";
-import { auth } from "@clerk/nextjs/server";
+// import { auth } from "@clerk/nextjs/server";
 import Image from "next/image";
 
 export default function Home() {
